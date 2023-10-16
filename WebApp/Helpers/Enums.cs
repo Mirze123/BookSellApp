@@ -11,7 +11,15 @@ namespace WebApp.Helpers
         {
             Admin,
             User,
-            Moderator
+            Moderator,
+            Anonymous
+        }
+
+        public enum Mode
+        {
+            Insert,
+            Update,
+            Readonly
         }
     }
 }

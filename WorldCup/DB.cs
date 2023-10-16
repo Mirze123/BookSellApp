@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using WebApp.Models.Concrete;
+using WorldCup.Models;
 
-namespace WebApp.Helpers.Database
+namespace WorldCup
 {
-    public static class BookAppDB
+    public static class DB
     {
-        public static List<User> Users { get; set; }
         public static List<Country> Countries { get; set; }
+        public static List<Groups> Groups { get; set; }
 
-        static BookAppDB()
+        static DB()
         {
-            Users = new List<User>();
             Countries = new List<Country>();
+            Groups = new List<Groups>();
         }
     }
 }

@@ -67,10 +67,106 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddOrEditCountry.aspx" />
+    <Content Include="Content\assets\css\app.min.css" />
+    <Content Include="Content\assets\fonts\feathere8ab.svg" />
+    <Content Include="Content\assets\fonts\la-brands-400.svg" />
+    <Content Include="Content\assets\fonts\la-regular-400.svg" />
+    <Content Include="Content\assets\fonts\la-solid-900.svg" />
+    <Content Include="Content\assets\images\avatars\thumb-1.jpg" />
+    <Content Include="Content\assets\images\avatars\thumb-10.jpg" />
+    <Content Include="Content\assets\images\avatars\thumb-11.jpg" />
+    <Content Include="Content\assets\images\avatars\thumb-12.jpg" />
+    <Content Include="Content\assets\images\avatars\thumb-13.jpg" />
+    <Content Include="Content\assets\images\avatars\thumb-14.jpg" />
+    <Content Include="Content\assets\images\avatars\thumb-15.jpg" />
+    <Content Include="Content\assets\images\avatars\thumb-2.jpg" />
+    <Content Include="Content\assets\images\avatars\thumb-3.jpg" />
+    <Content Include="Content\assets\images\avatars\thumb-4.jpg" />
+    <Content Include="Content\assets\images\avatars\thumb-5.jpg" />
+    <Content Include="Content\assets\images\avatars\thumb-6.jpg" />
+    <Content Include="Content\assets\images\avatars\thumb-7.jpg" />
+    <Content Include="Content\assets\images\avatars\thumb-8.jpg" />
+    <Content Include="Content\assets\images\avatars\thumb-9.jpg" />
+    <Content Include="Content\assets\images\logo\favicon.ico" />
+    <Content Include="Content\assets\images\logo\logo-fold.png" />
+    <Content Include="Content\assets\images\logo\logo-white.png" />
+    <Content Include="Content\assets\images\logo\logo.png" />
+    <Content Include="Content\assets\images\others\bg-1.jpg" />
+    <Content Include="Content\assets\images\others\bg-2.jpg" />
+    <Content Include="Content\assets\images\others\bg-3.jpg" />
+    <Content Include="Content\assets\images\others\bg-4.jpg" />
+    <Content Include="Content\assets\images\others\img-1.png" />
+    <Content Include="Content\assets\images\others\img-2.png" />
+    <Content Include="Content\assets\images\others\img-3.png" />
+    <Content Include="Content\assets\images\others\img-4.jpg" />
+    <Content Include="Content\assets\images\others\img-5.jpg" />
+    <Content Include="Content\assets\images\others\img-6.jpg" />
+    <Content Include="Content\assets\images\others\img-7.jpg" />
+    <Content Include="Content\assets\images\thumbs\en_US.png" />
+    <Content Include="Content\assets\images\thumbs\fr_FR.png" />
+    <Content Include="Content\assets\images\thumbs\german.png" />
+    <Content Include="Content\assets\images\thumbs\italy.png" />
+    <Content Include="Content\assets\images\thumbs\japan.png" />
+    <Content Include="Content\assets\images\thumbs\spain.png" />
+    <Content Include="Content\assets\images\thumbs\thumb-1.png" />
+    <Content Include="Content\assets\images\thumbs\thumb-2.png" />
+    <Content Include="Content\assets\images\thumbs\thumb-3.png" />
+    <Content Include="Content\assets\images\thumbs\thumb-4.png" />
+    <Content Include="Content\assets\images\thumbs\thumb-5.png" />
+    <Content Include="Content\assets\images\thumbs\us.png" />
+    <Content Include="Content\assets\js\app.min.js" />
+    <Content Include="Content\assets\js\pages\calendar.js" />
+    <Content Include="Content\assets\js\pages\chart.js" />
+    <Content Include="Content\assets\js\pages\chat.js" />
+    <Content Include="Content\assets\js\pages\dashboard.js" />
+    <Content Include="Content\assets\js\pages\form-validation.js" />
+    <Content Include="Content\assets\js\pages\icon.js" />
+    <Content Include="Content\assets\js\pages\mail.js" />
+    <Content Include="Content\assets\js\pages\user-list.js" />
+    <Content Include="Content\assets\js\vendors.min.js" />
+    <Content Include="Content\assets\vendors\apexcharts\dist\apexcharts.css" />
+    <Content Include="Content\assets\vendors\apexcharts\dist\apexcharts.min.js" />
+    <Content Include="Content\assets\vendors\datatables\dataTables.bootstrap.min.css" />
+    <Content Include="Content\assets\vendors\datatables\dataTables.bootstrap.min.js" />
+    <Content Include="Content\assets\vendors\datatables\jquery.dataTables.min.js" />
+    <Content Include="Content\assets\vendors\fullcalendar\lib\main.min.css" />
+    <Content Include="Content\assets\vendors\fullcalendar\lib\main.min.js" />
+    <Content Include="Content\assets\vendors\jquery-validation\jquery.validate.min.js" />
+    <Content Include="Content\assets\vendors\perfect-scrollbar\css\perfect-scrollbar.css" />
+    <Content Include="Content\assets\vendors\quill\quill.min.js" />
+    <Content Include="Countries.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Users.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddOrEditCountry.aspx.cs">
+      <DependentUpon>AddOrEditCountry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddOrEditCountry.aspx.designer.cs">
+      <DependentUpon>AddOrEditCountry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Constants\CommonMessages.cs" />
+    <Compile Include="Constants\DefaultValueConstants.cs" />
     <Compile Include="Constants\UserMessages.cs" />
+    <Compile Include="Countries.aspx.cs">
+      <DependentUpon>Countries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Countries.aspx.designer.cs">
+      <DependentUpon>Countries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Helpers\BusinessLogics.cs" />
     <Compile Include="Helpers\Database\BookAppDB.cs" />
     <Compile Include="Helpers\Enums.cs" />
@@ -86,11 +182,41 @@
     <Compile Include="Helpers\Results\Concrete\SuccessResult.cs" />
     <Compile Include="Helpers\Results\Concrete\ValidationResult.cs" />
     <Compile Include="Models\Abstract\IModel.cs" />
+    <Compile Include="Models\Concrete\Country.cs" />
     <Compile Include="Models\Concrete\User.cs" />
     <Compile Include="Operations\Abstract\IBaseOperation.cs" />
+    <Compile Include="Operations\Abstract\ICountryOperation.cs" />
     <Compile Include="Operations\Abstract\IUserOperation.cs" />
+    <Compile Include="Operations\Concrete\CountryManager.cs" />
     <Compile Include="Operations\Concrete\UserManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Validation\Abstract\IBaseValidation.cs" />
     <Compile Include="Validation\Abstract\IUserValidation.cs" />
     <Compile Include="Validation\Concrete\UserValidation.cs" />
@@ -102,7 +228,26 @@
     <Compile Include="Validation\PasswordValidation\PasswordValidationStatus.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\assets\fonts\feathere8ab.eot" />
+    <Content Include="Content\assets\fonts\feathere8ab.ttf" />
+    <Content Include="Content\assets\fonts\feathere8ab.woff" />
+    <Content Include="Content\assets\fonts\la-brands-400.eot" />
+    <Content Include="Content\assets\fonts\la-brands-400.ttf" />
+    <Content Include="Content\assets\fonts\la-brands-400.woff" />
+    <Content Include="Content\assets\fonts\la-brands-400.woff2" />
+    <Content Include="Content\assets\fonts\la-brands-400d41d.eot" />
+    <Content Include="Content\assets\fonts\la-regular-400.eot" />
+    <Content Include="Content\assets\fonts\la-regular-400.ttf" />
+    <Content Include="Content\assets\fonts\la-regular-400.woff" />
+    <Content Include="Content\assets\fonts\la-regular-400.woff2" />
+    <Content Include="Content\assets\fonts\la-regular-400d41d.eot" />
+    <Content Include="Content\assets\fonts\la-solid-900.eot" />
+    <Content Include="Content\assets\fonts\la-solid-900.ttf" />
+    <Content Include="Content\assets\fonts\la-solid-900.woff" />
+    <Content Include="Content\assets\fonts\la-solid-900.woff2" />
+    <Content Include="Content\assets\fonts\la-solid-900d41d.eot" />
     <None Include="packages.config" />
+    <Content Include="Site.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

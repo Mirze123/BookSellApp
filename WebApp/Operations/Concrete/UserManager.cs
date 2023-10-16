@@ -85,6 +85,11 @@ namespace WebApp.Operations.Concrete
 
         public IDataResult<int> GetNextId()
         {
+            if (!BookAppDB.Users.Any())
+            {
+                return new SuccessDataResult<int>(DefaultValueConstants.DEFAULT_ID_VALUE);
+            }
+
             return new SuccessDataResult<int>(BookAppDB.Users.Max(x => x.ID) + 1);
         }
 
